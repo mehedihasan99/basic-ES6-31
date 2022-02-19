@@ -1,0 +1,12 @@
+const numArr = [10, 30, 44, 66, 11];
+console.log(numArr);
+console.log(...numArr);
+const max = Math.max(...numArr);
+console.log(max);
+const numArr2 = [200,...numArr, 99];
+numArr.push(100);
+console.log(numArr);
+console.log(numArr2);
+ function getSum(a, b=9){return a+b;} console.log(getSum(2, 7));
+ const y = x => x*x; const z = y(5);
+ console.log(z);
